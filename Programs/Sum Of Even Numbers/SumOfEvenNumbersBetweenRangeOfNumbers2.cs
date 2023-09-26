@@ -4,7 +4,7 @@
   Enter To Number : 51
   Sum of even numbers from 21 to 51 is : 540   
 
-  Output1:
+  Output2:
   Enter From Number : 25
   Enter To Number : 15
   Invalid From and To Numbers
