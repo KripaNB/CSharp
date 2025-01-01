@@ -19,11 +19,11 @@ namespace Swapping2StringsWithoutUsingThirdVariable
             string name1 = Console.ReadLine();
             Console.WriteLine("Enter another string:");
             string name2 = Console.ReadLine();
-            Console.WriteLine("The numbers before swapping : name1 = " + name1 + "; name2 = " + name2);
+            Console.WriteLine("The strings before swapping : name1 = " + name1 + "; name2 = " + name2);
             name1 = name1 + name2;
             name2 = name1.Substring(0, name1.Length - name2.Length);
             name1 = name1.Substring(name2.Length);
-            Console.WriteLine("The numbers after swapping are : name1 = " + name1 + "; name2 = " + name2);
+            Console.WriteLine("The strings after swapping are : name1 = " + name1 + "; name2 = " + name2);
         }
     }
 }
